@@ -4,7 +4,10 @@
 
 def sum arr
   # YOUR CODE HERE
-  arrr.each do |i|
+  if arr == null
+  	return 0
+  end
+   arrr.each do |i|
     sum = sum + i
   end
 end
