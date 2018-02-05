@@ -6,9 +6,11 @@ def sum arr
   # YOUR CODE HERE
   if arr == null
   	return 0
-  end
-   arrr.each do |i|
-    sum = sum + i
+  else
+     arrr.each do |i|
+      sum = sum + i
+    end
+    return sum
   end
 end
 
