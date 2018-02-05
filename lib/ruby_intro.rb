@@ -4,14 +4,14 @@
 
 def sum arr
   # YOUR CODE HERE
-    if arr == null
-      return 0
-    else
-     arrr.each do |i|
-      sum = sum + i
-     end
+   arrr.each do |i|
+    sum = sum + i
+  end
+  if sum == null
+    return 0
+  else
     return sum
-    end
+  end
 end
 
 def max_2_sum arr
