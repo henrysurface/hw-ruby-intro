@@ -11,6 +11,14 @@ end
 
 def max_2_sum arr
   # YOUR CODE HERE
+   temp = arr.sort
+  if arr[-1] == null && arr[-2] == null
+  	return 0
+  elsif arr[-2] == null
+  	return arr[-1]
+  else
+  	return arr[-1] + arr[-2]
+  end 
 end
 
 def sum_to_n? arr, n
