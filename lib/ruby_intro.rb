@@ -88,3 +88,4 @@ class BookInStock
 	end
 end
 
+puts ""
